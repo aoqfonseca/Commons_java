@@ -1,6 +1,6 @@
-package br.com.neoris.util.test;
+package br.com.metronus.util.test;
 
-import br.com.neoris.util.StringParserUtil;
+import br.com.metronus.util.StringParserUtil;
 import junit.framework.TestCase;
 
 /**

@@ -1,4 +1,4 @@
-package br.com.neoris.util.sql.engine;
+package br.com.metronus.util.sql.engine;
 
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -12,13 +12,13 @@ import org.apache.commons.logging.LogFactory;
 import org.apache.commons.pool.ObjectPool;
 import org.apache.commons.pool.impl.GenericObjectPool;
 
-import br.com.neoris.util.exception.DbConnectionException;
-import br.com.neoris.util.exception.PropertyNotFoundException;
-import br.com.neoris.util.exception.UndefiniedConnectionTypeException;
-import br.com.neoris.util.sql.engine.conector.DBConnection;
-import br.com.neoris.util.sql.engine.conector.DataSourceConnection;
-import br.com.neoris.util.sql.engine.conector.DriverConnection;
-import br.com.neoris.util.sql.engine.conector.PooledDriverConnection;
+import br.com.metronus.util.exception.DbConnectionException;
+import br.com.metronus.util.exception.PropertyNotFoundException;
+import br.com.metronus.util.exception.UndefiniedConnectionTypeException;
+import br.com.metronus.util.sql.engine.conector.DBConnection;
+import br.com.metronus.util.sql.engine.conector.DataSourceConnection;
+import br.com.metronus.util.sql.engine.conector.DriverConnection;
+import br.com.metronus.util.sql.engine.conector.PooledDriverConnection;
 
 /**
  * Classe responsavel por criar um conexão com o banco de dados, dado <br>

@@ -1,4 +1,4 @@
-package br.com.neoris.util.maintenance.impl;
+package br.com.metronus.util.maintenance.impl;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -16,8 +16,8 @@ import org.apache.commons.logging.LogFactory;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
-import br.com.neoris.util.maintenance.Maintenance;
-import br.com.neoris.util.maintenance.Pattern;
+import br.com.metronus.util.maintenance.Maintenance;
+import br.com.metronus.util.maintenance.Pattern;
 
 public class XMLMaintenance extends Maintenance {
 

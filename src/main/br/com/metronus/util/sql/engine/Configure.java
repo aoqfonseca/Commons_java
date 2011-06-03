@@ -1,4 +1,4 @@
-package br.com.neoris.util.sql.engine;
+package br.com.metronus.util.sql.engine;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,8 +18,8 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import br.com.neoris.util.StringUtil;
-import br.com.neoris.util.exception.PropertyNotFoundException;
+import br.com.metronus.util.StringUtil;
+import br.com.metronus.util.exception.PropertyNotFoundException;
 
 /**
  * @author Andre Fonseca

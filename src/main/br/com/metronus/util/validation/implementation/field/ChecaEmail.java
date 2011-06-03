@@ -1,9 +1,9 @@
-package br.com.neoris.util.validation.implementation.field;
+package br.com.metronus.util.validation.implementation.field;
 
 import java.util.Locale;
 
-import br.com.neoris.util.validation.field.Field;
-import br.com.neoris.util.validation.field.Response;
+import br.com.metronus.util.validation.field.Field;
+import br.com.metronus.util.validation.field.Response;
 
 /**
  * @author Andre Fonseca
@@ -17,7 +17,7 @@ public class ChecaEmail extends AbstractChecker {
     private final String EMAIL_REGEXP = "[a-zA-Z][\\w\\.-]*[a-zA-Z0-9]@[a-zA-Z0-9][\\w\\.-]*[a-zA-Z0-9]\\.[a-zA-Z][a-zA-Z\\.]*[a-zA-Z]$";
     
     /* (non-Javadoc)
-     * @see br.com.neoris.util.validation.field.Checker#validate(br.com.neoris.util.validation.field.Field)
+     * @see br.com.metronus.util.validation.field.Checker#validate(br.com.metronus.util.validation.field.Field)
      */
     public Response validate(Field field) {
         Response response = new Response(true,field, null);

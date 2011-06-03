@@ -1,4 +1,4 @@
-package br.com.neoris.util;
+package br.com.metronus.util;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

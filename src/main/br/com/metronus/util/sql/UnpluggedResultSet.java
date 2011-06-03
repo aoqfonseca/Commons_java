@@ -1,4 +1,4 @@
-package br.com.neoris.util.sql;
+package br.com.metronus.util.sql;
 
 import java.util.ArrayList;
 import java.util.Collection;

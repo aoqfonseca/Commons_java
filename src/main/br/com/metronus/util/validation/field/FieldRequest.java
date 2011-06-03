@@ -1,4 +1,4 @@
-package br.com.neoris.util.validation.field;
+package br.com.metronus.util.validation.field;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -18,28 +18,28 @@ public class FieldRequest extends SimpleFieldImpl {
     }
     
     /* (non-Javadoc)
-     * @see br.com.neoris.util.validation.field.SimpleFieldImpl#getNome()
+     * @see br.com.metronus.util.validation.field.SimpleFieldImpl#getNome()
      */
     public String getNome() {        // 
         return super.getNome();
     }
     
     /* (non-Javadoc)
-     * @see br.com.neoris.util.validation.field.SimpleFieldImpl#getValor()
+     * @see br.com.metronus.util.validation.field.SimpleFieldImpl#getValor()
      */
     public Object getValor() {        
         return super.getValor();
     }
     
     /* (non-Javadoc)
-     * @see br.com.neoris.util.validation.field.SimpleFieldImpl#setNome(java.lang.String)
+     * @see br.com.metronus.util.validation.field.SimpleFieldImpl#setNome(java.lang.String)
      */
     public void setNome(String nome) {     
         super.setNome(nome);
     }
     
     /* (non-Javadoc)
-     * @see br.com.neoris.util.validation.field.SimpleFieldImpl#setValor(java.lang.Object)
+     * @see br.com.metronus.util.validation.field.SimpleFieldImpl#setValor(java.lang.Object)
      */
     public void setValor(Object valor) {
         super.setValor(valor);

@@ -1,11 +1,11 @@
-package br.com.neoris.util.test;
+package br.com.metronus.util.test;
 
 import java.io.File;
 
 import javax.swing.JOptionPane;
 
-import br.com.neoris.util.maintenance.Fix;
-import br.com.neoris.util.maintenance.impl.LogTxtMaintenance;
+import br.com.metronus.util.maintenance.Fix;
+import br.com.metronus.util.maintenance.impl.LogTxtMaintenance;
 
 import junit.framework.TestCase;
 
@@ -14,7 +14,7 @@ public class LogTxtMaintenanceTest extends TestCase {
 	public static boolean f= false;
 
 	/*
-	 * Test method for 'br.com.neoris.util.maintenance.impl.LogTxtMaintenance.start()'
+	 * Test method for 'br.com.metronus.util.maintenance.impl.LogTxtMaintenance.start()'
 	 */
 	public void testStart() {
 		LogTxtMaintenance maintenance = new LogTxtMaintenance(new File("D:\\Dados\\Projetos\\integracaosrc\\dist\\integracao\\default_error.log"));
@@ -36,7 +36,7 @@ public class LogTxtMaintenanceTest extends TestCase {
 	}
 
 	/*
-	 * Test method for 'br.com.neoris.util.maintenance.impl.LogTxtMaintenance.stop()'
+	 * Test method for 'br.com.metronus.util.maintenance.impl.LogTxtMaintenance.stop()'
 	 */
 	public void testStop() {
 		maintenance.stop();

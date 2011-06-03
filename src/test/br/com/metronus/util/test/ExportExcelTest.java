@@ -1,8 +1,8 @@
-package br.com.neoris.util.test;
+package br.com.metronus.util.test;
 
 import java.util.Iterator;
 
-import br.com.neoris.util.export.ExportExcel;
+import br.com.metronus.util.export.ExportExcel;
 
 public class ExportExcelTest {
 

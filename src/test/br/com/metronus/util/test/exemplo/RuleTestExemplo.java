@@ -1,8 +1,8 @@
-package br.com.neoris.util.test.exemplo;
+package br.com.metronus.util.test.exemplo;
 
-import br.com.neoris.util.rules.Rule;
-import br.com.neoris.util.rules.RuleContainer;
-import br.com.neoris.util.rules.base.xml.RuleBaseXmlImpl;
+import br.com.metronus.util.rules.Rule;
+import br.com.metronus.util.rules.RuleContainer;
+import br.com.metronus.util.rules.base.xml.RuleBaseXmlImpl;
 
 /**
  * @author Andre Fonseca
@@ -50,14 +50,14 @@ public class RuleTestExemplo {
 class RuleTeste extends Rule{
             
     /* (non-Javadoc)
-     * @see br.com.neoris.util.rules.Rule#fail()
+     * @see br.com.metronus.util.rules.Rule#fail()
      */
     public void fail() {
      System.out.println("false");
 
     }
     /* (non-Javadoc)
-     * @see br.com.neoris.util.rules.Rule#success()
+     * @see br.com.metronus.util.rules.Rule#success()
      */
     public void success() {
         System.out.println("ok");

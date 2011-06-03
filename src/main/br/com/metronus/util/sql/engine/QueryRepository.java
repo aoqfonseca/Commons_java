@@ -1,4 +1,4 @@
-package br.com.neoris.util.sql.engine;
+package br.com.metronus.util.sql.engine;
 
 import java.io.IOException;
 import java.util.LinkedHashMap;
@@ -10,7 +10,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.xml.sax.SAXException;
 
-import br.com.neoris.util.exception.PropertyNotFoundException;
+import br.com.metronus.util.exception.PropertyNotFoundException;
 
 /**
  * @author Andre Fonseca

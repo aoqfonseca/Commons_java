@@ -1,4 +1,4 @@
-package br.com.neoris.util.test.exemplo;
+package br.com.metronus.util.test.exemplo;
 
 public class EventoTesteVO {
 	

@@ -1,13 +1,13 @@
-package br.com.neoris.util.test;
+package br.com.metronus.util.test;
 
 import junit.framework.TestCase;
-import br.com.neoris.util.validation.field.SimpleFieldImpl;
-import br.com.neoris.util.validation.field.Response;
-import br.com.neoris.util.validation.implementation.field.ChecaCPF;
-import br.com.neoris.util.validation.implementation.field.ChecaCampoNumerico;
-import br.com.neoris.util.validation.implementation.field.ChecaEmail;
-import br.com.neoris.util.validation.implementation.field.ChecaSeNaoTemRegExp;
-import br.com.neoris.util.validation.implementation.field.ChecaSeTemRegExp;
+import br.com.metronus.util.validation.field.SimpleFieldImpl;
+import br.com.metronus.util.validation.field.Response;
+import br.com.metronus.util.validation.implementation.field.ChecaCPF;
+import br.com.metronus.util.validation.implementation.field.ChecaCampoNumerico;
+import br.com.metronus.util.validation.implementation.field.ChecaEmail;
+import br.com.metronus.util.validation.implementation.field.ChecaSeNaoTemRegExp;
+import br.com.metronus.util.validation.implementation.field.ChecaSeTemRegExp;
 
 /**
  * @author Andre Fonseca
@@ -36,7 +36,7 @@ public class ValidatorUtilTest extends TestCase {
         ChecaEmail validator = new ChecaEmail();
         Response resp = validator.validate(new SimpleFieldImpl("nome","abcd123ef"));
         assertEquals(false,resp.isValid());
-        resp = validator.validate(new SimpleFieldImpl("nome","neoris@neoris.com.br"));
+        resp = validator.validate(new SimpleFieldImpl("nome","metronus@metronus.com.br"));
         assertEquals(true,resp.isValid());
     }
 

@@ -1,4 +1,4 @@
-package br.com.neoris.util.exception;
+package br.com.metronus.util.exception;
 
 /**
  * @author wsadm

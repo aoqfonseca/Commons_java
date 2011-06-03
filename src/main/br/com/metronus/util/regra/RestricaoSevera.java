@@ -1,4 +1,4 @@
-package br.com.neoris.util.regra;
+package br.com.metronus.util.regra;
 /**
  * 
  * @author Andre Fonseca

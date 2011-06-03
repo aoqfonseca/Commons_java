@@ -1,4 +1,4 @@
-package br.com.neoris.util;
+package br.com.metronus.util;
 
 import java.util.Date;
 import java.util.Properties;
@@ -15,7 +15,7 @@ import javax.mail.internet.MimeMessage;
  * Title Mail.java
  * <b> NEORIS - Brasil </b>
  * @author Andre Fonseca
- * Classe que representa a entidade e-mail para os sistemas neoris
+ * Classe que representa a entidade e-mail para os sistemas metronus
  * Ela só manda email simples, sem anexos e no formato texto, para esta versão. Em versões futuras<bR>
  * pretende-se acertar isso
  * @version 0.8

@@ -1,4 +1,4 @@
-package br.com.neoris.util;
+package br.com.metronus.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -20,7 +20,7 @@ public class Conecta {
 		}
 		try {
 			List modulos = new ArrayList();
-			Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@cgrubd01.cgr.michelin.com:1521:PROD03", "bmmerctc", "mercmichelin");
+			Connection conn = DriverManager.getConnection("jdbc:oracle:thin:qualquer coisa", "1111", "11111111");
 			PreparedStatement st = conn.prepareStatement("select CD_MODULO_UMD from VSA_USUARIO_MODULO where upper(CD_USUARIO_UMD)='"+login.toUpperCase().trim()+"' and CD_SISTEMA_UMD='NM' ");			
 			ResultSet result = st.executeQuery();
 			while(result.next()){

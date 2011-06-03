@@ -1,4 +1,4 @@
-package br.com.neoris.util.exception;
+package br.com.metronus.util.exception;
 
 public class TamanhoDoArquivoMaiorQueSuportadoException extends Exception {
 

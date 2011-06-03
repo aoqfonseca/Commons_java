@@ -1,4 +1,4 @@
-package br.com.neoris.util.validation.field;
+package br.com.metronus.util.validation.field;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package br.com.neoris.util.rules.base;
+package br.com.metronus.util.rules.base;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

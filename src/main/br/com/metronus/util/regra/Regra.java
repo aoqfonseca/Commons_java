@@ -1,8 +1,8 @@
-package br.com.neoris.util.regra;
+package br.com.metronus.util.regra;
 
 import java.util.LinkedList;
 
-import br.com.neoris.util.rules.Constraint;
+import br.com.metronus.util.rules.Constraint;
 
 /**
  * @author Andre Fonseca Classe que representa uma regra de negocio

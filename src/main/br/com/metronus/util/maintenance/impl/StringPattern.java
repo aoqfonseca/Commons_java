@@ -1,8 +1,8 @@
 
-package br.com.neoris.util.maintenance.impl;
+package br.com.metronus.util.maintenance.impl;
 
-import br.com.neoris.util.StringUtil;
-import br.com.neoris.util.maintenance.Pattern;
+import br.com.metronus.util.StringUtil;
+import br.com.metronus.util.maintenance.Pattern;
 
 /**
  * @author Andre Fonseca

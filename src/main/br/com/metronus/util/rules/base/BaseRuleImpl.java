@@ -1,4 +1,4 @@
-package br.com.neoris.util.rules.base;
+package br.com.metronus.util.rules.base;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.Iterator;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import br.com.neoris.util.rules.Rule;
+import br.com.metronus.util.rules.Rule;
 
 /**
  * @author Andre Fonseca
@@ -34,7 +34,7 @@ public class BaseRuleImpl extends Rule {
     }
     
     /* (non-Javadoc)
-     * @see br.com.neoris.util.rules.Rule#fail()
+     * @see br.com.metronus.util.rules.Rule#fail()
      */
     public void fail() {
         log.debug("fail");
@@ -55,7 +55,7 @@ public class BaseRuleImpl extends Rule {
     }
 
     /* (non-Javadoc)
-     * @see br.com.neoris.util.rules.Rule#success()
+     * @see br.com.metronus.util.rules.Rule#success()
      */
     public void success() {
         log.debug("success");

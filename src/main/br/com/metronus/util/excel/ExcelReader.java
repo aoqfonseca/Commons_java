@@ -1,4 +1,4 @@
-package br.com.neoris.util.excel;
+package br.com.metronus.util.excel;
 
 import java.io.IOException;
 import java.io.InputStream;

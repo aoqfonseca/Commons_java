@@ -1,4 +1,4 @@
-package br.com.neoris.util.maintenance.impl;
+package br.com.metronus.util.maintenance.impl;
 
 import javax.xml.transform.TransformerException;
 
@@ -7,7 +7,7 @@ import org.apache.commons.logging.LogFactory;
 import org.apache.xpath.XPathAPI;
 import org.w3c.dom.Node;
 
-import br.com.neoris.util.maintenance.Pattern;
+import br.com.metronus.util.maintenance.Pattern;
 
 public class XMLPattern extends Pattern {
 	

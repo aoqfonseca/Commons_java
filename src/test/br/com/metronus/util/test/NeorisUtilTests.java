@@ -4,7 +4,7 @@
  * Este código é de propriedade da Michelin(NEORIS)
  * 
  */
-package br.com.neoris.util.test;
+package br.com.metronus.util.test;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;
@@ -23,7 +23,7 @@ public class NeorisUtilTests {
 	}
 
 	public static Test suite() {
-		TestSuite suite = new TestSuite("Test for br.com.neoris.util.test");
+		TestSuite suite = new TestSuite("Test for br.com.metronus.util.test");
 		//$JUnit-BEGIN$
 		suite.addTest(new TestSuite(StringUtilTest.class));
 		suite.addTest(new TestSuite(ExportCSVTest.class));

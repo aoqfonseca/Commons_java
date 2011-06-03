@@ -1,4 +1,4 @@
-package br.com.neoris.util.validation.field;
+package br.com.metronus.util.validation.field;
 
 /**
  * @author Andre Fonseca

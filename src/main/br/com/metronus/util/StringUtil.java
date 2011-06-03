@@ -1,4 +1,4 @@
-package br.com.neoris.util;
+package br.com.metronus.util;
 
 import java.sql.Timestamp;
 import java.text.DecimalFormat;

@@ -1,9 +1,9 @@
-package br.com.neoris.util.validation.implementation.field;
+package br.com.metronus.util.validation.implementation.field;
 
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-import br.com.neoris.util.validation.field.Checker;
+import br.com.metronus.util.validation.field.Checker;
 
 /**
  * @author Andre Fonseca
@@ -19,9 +19,9 @@ public abstract class AbstractChecker implements Checker {
      *
      */
     public AbstractChecker(){
-        bundle = ResourceBundle.getBundle("br.com.neoris.util.validation.implementation.field.mensagens");        
+        bundle = ResourceBundle.getBundle("br.com.metronus.util.validation.implementation.field.mensagens");        
     }
     public AbstractChecker(Locale locale){
-        bundle = ResourceBundle.getBundle("br.com.neoris.util.validation.implementation.field.mensagens",locale);        
+        bundle = ResourceBundle.getBundle("br.com.metronus.util.validation.implementation.field.mensagens",locale);        
     }
 }

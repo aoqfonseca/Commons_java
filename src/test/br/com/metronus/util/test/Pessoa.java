@@ -1,4 +1,4 @@
-package br.com.neoris.util.test;
+package br.com.metronus.util.test;
 
 import java.util.ArrayList;
 import java.util.Collection;

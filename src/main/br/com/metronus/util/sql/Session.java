@@ -1,4 +1,4 @@
-package br.com.neoris.util.sql;
+package br.com.metronus.util.sql;
 
 import java.lang.reflect.InvocationTargetException;
 import java.sql.CallableStatement;
@@ -23,10 +23,10 @@ import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import br.com.neoris.util.Transaction;
-import br.com.neoris.util.exception.TransactionException;
-import br.com.neoris.util.sql.engine.QueryConfiguration;
-import br.com.neoris.util.sql.engine.QueryRepository;
+import br.com.metronus.util.Transaction;
+import br.com.metronus.util.exception.TransactionException;
+import br.com.metronus.util.sql.engine.QueryConfiguration;
+import br.com.metronus.util.sql.engine.QueryRepository;
 
 /**
  * @author Andre Fonseca

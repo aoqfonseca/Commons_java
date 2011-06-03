@@ -1,9 +1,9 @@
-package br.com.neoris.util.sql.engine.conector;
+package br.com.metronus.util.sql.engine.conector;
 
 import java.sql.Connection;
 
-import br.com.neoris.util.exception.DbConnectionException;
-import br.com.neoris.util.sql.engine.ConnectionConfigure;
+import br.com.metronus.util.exception.DbConnectionException;
+import br.com.metronus.util.sql.engine.ConnectionConfigure;
 
 /**
  * Title ConnectorDB.java

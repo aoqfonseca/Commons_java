@@ -1,4 +1,4 @@
-package br.com.neoris.util.rules;
+package br.com.metronus.util.rules;
 
 /**
  * @author Andre Fonseca

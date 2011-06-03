@@ -1,7 +1,7 @@
-package br.com.neoris.util.test.exemplo;
+package br.com.metronus.util.test.exemplo;
 
-import br.com.neoris.util.rules.Constraint;
-import br.com.neoris.util.rules.Context;
+import br.com.metronus.util.rules.Constraint;
+import br.com.metronus.util.rules.Context;
 
 /**
  * @author Andre Fonseca
@@ -12,7 +12,7 @@ import br.com.neoris.util.rules.Context;
 public class TestConstrain3 implements Constraint {
 
     /* (non-Javadoc)
-     * @see br.com.neoris.util.rules.Constraint#check(br.com.neoris.util.rules.Context)
+     * @see br.com.metronus.util.rules.Constraint#check(br.com.metronus.util.rules.Context)
      */
     public boolean check(Context ctx) {
         String nome = (String) ctx.getAttribute("tipo_teste");

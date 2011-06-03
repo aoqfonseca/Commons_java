@@ -1,4 +1,4 @@
-package br.com.neoris.util.excel;
+package br.com.metronus.util.excel;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;

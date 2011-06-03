@@ -1,10 +1,10 @@
-package br.com.neoris.util.sql;
+package br.com.metronus.util.sql;
 
-import br.com.neoris.util.exception.DbConnectionException;
-import br.com.neoris.util.exception.UndefiniedConnectionTypeException;
-import br.com.neoris.util.sql.engine.Configure;
-import br.com.neoris.util.sql.engine.Connection;
-import br.com.neoris.util.sql.engine.QueryRepository;
+import br.com.metronus.util.exception.DbConnectionException;
+import br.com.metronus.util.exception.UndefiniedConnectionTypeException;
+import br.com.metronus.util.sql.engine.Configure;
+import br.com.metronus.util.sql.engine.Connection;
+import br.com.metronus.util.sql.engine.QueryRepository;
 
 /**
  * @author Andre Fonseca Classe que controla a criação de sessões com o banco

@@ -1,4 +1,4 @@
-package br.com.neoris.util.rules.base.xml;
+package br.com.metronus.util.rules.base.xml;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,11 +20,11 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import br.com.neoris.util.rules.Constraint;
-import br.com.neoris.util.rules.Rule;
-import br.com.neoris.util.rules.base.BeanWrapper;
-import br.com.neoris.util.rules.base.RuleBase;
-import br.com.neoris.util.rules.base.BaseRuleImpl;
+import br.com.metronus.util.rules.Constraint;
+import br.com.metronus.util.rules.Rule;
+import br.com.metronus.util.rules.base.BeanWrapper;
+import br.com.metronus.util.rules.base.RuleBase;
+import br.com.metronus.util.rules.base.BaseRuleImpl;
 
 /**
  * @author Andre Fonseca
@@ -168,13 +168,13 @@ public class RuleBaseXmlImpl implements RuleBase {
     }
     
     /* (non-Javadoc)
-     * @see br.com.neoris.util.rules.base.RuleBase#getAllRules()
+     * @see br.com.metronus.util.rules.base.RuleBase#getAllRules()
      */
     public Collection getAllRules() {        
         return rulesMap.values();
     }
     /* (non-Javadoc)
-     * @see br.com.neoris.util.rules.base.RuleBase#getRule(java.lang.Object)
+     * @see br.com.metronus.util.rules.base.RuleBase#getRule(java.lang.Object)
      */
     public Rule getRule(Object key) {        
         return (Rule)rulesMap.get(key);

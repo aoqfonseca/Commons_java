@@ -1,4 +1,4 @@
-package br.com.neoris.util.maintenance;
+package br.com.metronus.util.maintenance;
 /**
  * Interface que determina o comportamento de um acerto para caso o pattern seja
  * disparado

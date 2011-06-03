@@ -1,4 +1,4 @@
-package br.com.neoris.util.test.exemplo;
+package br.com.metronus.util.test.exemplo;
 
 import java.lang.reflect.InvocationTargetException;
 import java.sql.PreparedStatement;
@@ -6,15 +6,15 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Collection;
 
-import br.com.neoris.util.exception.DbConnectionException;
-import br.com.neoris.util.exception.UndefiniedConnectionTypeException;
-import br.com.neoris.util.sql.Session;
-import br.com.neoris.util.sql.SessionFactory;
+import br.com.metronus.util.exception.DbConnectionException;
+import br.com.metronus.util.exception.UndefiniedConnectionTypeException;
+import br.com.metronus.util.sql.Session;
+import br.com.metronus.util.sql.SessionFactory;
 
 /**
  * @author Andre Fonseca
  * 
- * Classe exemplo de uso da api neoris-sql.jar
+ * Classe exemplo de uso da api metronus-sql.jar
  */
 public class ExecutaQueryExemplo {
 

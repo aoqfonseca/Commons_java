@@ -4,7 +4,7 @@
  * Este código é de propriedade da Michelin(NEORIS)
  * 
  */
-package br.com.neoris.util;
+package br.com.metronus.util;
 
 import java.util.ArrayList;
 import java.util.Calendar;

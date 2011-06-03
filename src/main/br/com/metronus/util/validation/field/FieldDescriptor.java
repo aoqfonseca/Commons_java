@@ -1,4 +1,4 @@
-package br.com.neoris.util.validation.field;
+package br.com.metronus.util.validation.field;
 
 import java.beans.IntrospectionException;
 import java.beans.PropertyDescriptor;
@@ -29,7 +29,7 @@ public class FieldDescriptor extends SimpleFieldImpl {
     /*
      * (non-Javadoc)
      * 
-     * @see br.com.neoris.util.validation.field.Field#getNome()
+     * @see br.com.metronus.util.validation.field.Field#getNome()
      */
     public String getNome() {
         return descriptor.getName();
@@ -38,7 +38,7 @@ public class FieldDescriptor extends SimpleFieldImpl {
     /*
      * (non-Javadoc)
      * 
-     * @see br.com.neoris.util.validation.field.Field#getValor()
+     * @see br.com.metronus.util.validation.field.Field#getValor()
      */
     public Object getValor() {
         try {
@@ -58,7 +58,7 @@ public class FieldDescriptor extends SimpleFieldImpl {
     /*
      * (non-Javadoc)
      * 
-     * @see br.com.neoris.util.validation.field.Field#setNome(java.lang.String)
+     * @see br.com.metronus.util.validation.field.Field#setNome(java.lang.String)
      */
     public void setNome(String nome) {
         super.setNome(nome);
@@ -67,7 +67,7 @@ public class FieldDescriptor extends SimpleFieldImpl {
     /*
      * (non-Javadoc)
      * 
-     * @see br.com.neoris.util.validation.field.Field#setValor(java.lang.Object)
+     * @see br.com.metronus.util.validation.field.Field#setValor(java.lang.Object)
      */
     public void setValor(Object valor) {
         try {

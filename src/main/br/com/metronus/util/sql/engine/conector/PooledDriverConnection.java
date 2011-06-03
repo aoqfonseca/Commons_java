@@ -4,14 +4,14 @@
  * Este código é de propriedade da Michelin(NEORIS)
  * 
  */
-package br.com.neoris.util.sql.engine.conector;
+package br.com.metronus.util.sql.engine.conector;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import br.com.neoris.util.exception.DbConnectionException;
-import br.com.neoris.util.sql.engine.ConnectionConfigure;
+import br.com.metronus.util.exception.DbConnectionException;
+import br.com.metronus.util.sql.engine.ConnectionConfigure;
 
 /**
  * Classe que implementa a interface de criacao de conexão com banco de dados <bR>
@@ -37,7 +37,7 @@ public class PooledDriverConnection implements DBConnection{
 	}
 
 	/* (non-Javadoc)
-	 * @see br.com.neoris.util.sql.conector.ConnectorDB#getConnection()
+	 * @see br.com.metronus.util.sql.conector.ConnectorDB#getConnection()
 	 */
 	public Connection getConnection() throws DbConnectionException {	           
         try {
@@ -51,7 +51,7 @@ public class PooledDriverConnection implements DBConnection{
 	}
   
     /* (non-Javadoc)
-     * @see br.com.neoris.util.sql.conector.DBConnection#setConfigure(br.com.neoris.util.sql.engine.ConnectionConfigure)
+     * @see br.com.metronus.util.sql.conector.DBConnection#setConfigure(br.com.metronus.util.sql.engine.ConnectionConfigure)
      */
     public void setConfigure(ConnectionConfigure configure) { 
         this.configure = configure;

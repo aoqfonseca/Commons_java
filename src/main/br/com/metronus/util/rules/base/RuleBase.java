@@ -1,8 +1,8 @@
-package br.com.neoris.util.rules.base;
+package br.com.metronus.util.rules.base;
 
 import java.util.Collection;
 
-import br.com.neoris.util.rules.Rule;
+import br.com.metronus.util.rules.Rule;
 
 /**
  * @author Andre Fonseca

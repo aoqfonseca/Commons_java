@@ -4,7 +4,7 @@
  * Este código é de propriedade da Michelin(NEORIS)
  * 
  */
-package br.com.neoris.util.test;
+package br.com.metronus.util.test;
 
 import junit.framework.TestCase;
 

@@ -1,4 +1,4 @@
-package br.com.neoris.util.rules;
+package br.com.metronus.util.rules;
 
 import java.util.HashMap;
 

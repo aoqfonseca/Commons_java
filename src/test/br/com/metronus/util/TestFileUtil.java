@@ -1,4 +1,4 @@
-package br.com.neoris.util;
+package br.com.metronus.util;
 
 import java.util.Collection;
 import java.util.Iterator;
@@ -8,7 +8,7 @@ import junit.framework.TestCase;
 public class TestFileUtil extends TestCase {
 
 	/*
-	 * Test method for 'br.com.neoris.util.FileUtil.getFileName(String)'
+	 * Test method for 'br.com.metronus.util.FileUtil.getFileName(String)'
 	 */
 	public void testGetFileName() {
 		 
@@ -22,7 +22,7 @@ public class TestFileUtil extends TestCase {
 	}
 
 	/*
-	 * Test method for 'br.com.neoris.util.FileUtil.getFileExtension(String)'
+	 * Test method for 'br.com.metronus.util.FileUtil.getFileExtension(String)'
 	 */
 	public void testGetFileExtension() {
 		

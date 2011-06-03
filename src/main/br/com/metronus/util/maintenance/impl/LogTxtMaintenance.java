@@ -1,4 +1,4 @@
-package br.com.neoris.util.maintenance.impl;
+package br.com.metronus.util.maintenance.impl;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -10,8 +10,8 @@ import java.io.InputStreamReader;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import br.com.neoris.util.maintenance.Maintenance;
-import br.com.neoris.util.maintenance.Pattern;
+import br.com.metronus.util.maintenance.Maintenance;
+import br.com.metronus.util.maintenance.Pattern;
 
 /**
  * Classe que especializa a Maintenance para arquivos de log de texto. Ela

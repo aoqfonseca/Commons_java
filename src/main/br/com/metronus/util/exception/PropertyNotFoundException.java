@@ -4,7 +4,7 @@
  * Este código é de propriedade da Michelin(NEORIS)
  * 
  */
-package br.com.neoris.util.exception;
+package br.com.metronus.util.exception;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

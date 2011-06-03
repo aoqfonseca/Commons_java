@@ -4,7 +4,7 @@
  * Este código é de propriedade da Michelin(NEORIS)
  * 
  */
-package br.com.neoris.util;
+package br.com.metronus.util;
 
 import java.util.Hashtable;
 
@@ -13,7 +13,7 @@ import javax.naming.NamingException;
 import javax.naming.directory.DirContext;
 import javax.naming.directory.InitialDirContext;
 
-import br.com.neoris.util.exception.PropertyNotFoundException;
+import br.com.metronus.util.exception.PropertyNotFoundException;
 
 /**
  * Title LDAPAcess.java

@@ -4,11 +4,11 @@
  * Este código é de propriedade da Michelin(NEORIS)
  * 
  */
-package br.com.neoris.util.test;
+package br.com.metronus.util.test;
 import java.sql.Timestamp;
 import java.text.ParseException;
 
-import br.com.neoris.util.StringUtil;
+import br.com.metronus.util.StringUtil;
 
 import junit.framework.TestCase;
 

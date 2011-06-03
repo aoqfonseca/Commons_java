@@ -1,4 +1,4 @@
-package br.com.neoris.util;
+package br.com.metronus.util;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -11,7 +11,7 @@ import javax.transaction.Synchronization;
 import javax.transaction.SystemException;
 import javax.transaction.xa.XAResource;
 
-import br.com.neoris.util.exception.TransactionException;
+import br.com.metronus.util.exception.TransactionException;
 
 /**
  * @author Andre Fonseca

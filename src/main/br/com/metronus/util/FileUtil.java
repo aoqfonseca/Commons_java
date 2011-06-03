@@ -1,4 +1,4 @@
-package br.com.neoris.util;
+package br.com.metronus.util;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -8,7 +8,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import br.com.neoris.util.exception.TamanhoDoArquivoMaiorQueSuportadoException;
+import br.com.metronus.util.exception.TamanhoDoArquivoMaiorQueSuportadoException;
 
 
 public class FileUtil {

@@ -4,7 +4,7 @@
  * Este código é de propriedade da Michelin(NEORIS)
  * 
  */
-package br.com.neoris.util.sql.engine.conector;
+package br.com.metronus.util.sql.engine.conector;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -13,8 +13,8 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
-import br.com.neoris.util.exception.DbConnectionException;
-import br.com.neoris.util.sql.engine.ConnectionConfigure;
+import br.com.metronus.util.exception.DbConnectionException;
+import br.com.metronus.util.sql.engine.ConnectionConfigure;
 
 /**
  * Title DataSourceConnection.java
@@ -32,7 +32,7 @@ public class DataSourceConnection implements DBConnection {
 	
 
 	/* (non-Javadoc)
-	 * @see br.com.neoris.util.sql.conector.ConnectorDB#getConnection()
+	 * @see br.com.metronus.util.sql.conector.ConnectorDB#getConnection()
 	 */
 	public Connection getConnection() throws DbConnectionException {
 
@@ -56,7 +56,7 @@ public class DataSourceConnection implements DBConnection {
     
 
     /* (non-Javadoc)
-     * @see br.com.neoris.util.sql.conector.DBConnection#setConfigure(br.com.neoris.util.sql.engine.ConnectionConfigure)
+     * @see br.com.metronus.util.sql.conector.DBConnection#setConfigure(br.com.metronus.util.sql.engine.ConnectionConfigure)
      */
     public void setConfigure(ConnectionConfigure configure) { 
         this.configure = configure;

@@ -4,14 +4,14 @@
  * Este código é de propriedade da Michelin(NEORIS)
  * 
  */
-package br.com.neoris.util.test;
+package br.com.metronus.util.test;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.GregorianCalendar;
 
 import junit.framework.TestCase;
-import br.com.neoris.util.DateUtil;
+import br.com.metronus.util.DateUtil;
 
 /**
  * Title DateUtilTest.java

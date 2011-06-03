@@ -1,4 +1,4 @@
-package br.com.neoris.util.integration;
+package br.com.metronus.util.integration;
 
 import java.io.EOFException;
 import java.io.IOException;

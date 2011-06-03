@@ -1,4 +1,4 @@
-package br.com.neoris.util.rules;
+package br.com.metronus.util.rules;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -9,7 +9,7 @@ import java.util.LinkedHashMap;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import br.com.neoris.util.rules.base.RuleBase;
+import br.com.metronus.util.rules.base.RuleBase;
 
 /**
  * @author Andre Fonseca
