@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<regras-grupo>
+	<regra nome="">
+		<grupo>
+			<restricao class="">
+				<parametros></parametros>
+			</restricao>
+		</grupo>
+		<fail></fail>
+		<success></success>
+	</regra>
+</regras-grupo>

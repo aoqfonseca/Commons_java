@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<connection-config>
+
+	<!--  Mapas de conexões -->
+	<connection name="default" type="pool_driver">		
+		<property name="user">wsadm</property>
+		<property name="password">michelin</property>
+		<property name="url">jdbc:odbc:BRZ00052</property>
+		<property name="driver.class">sun.jdbc.odbc.JdbcOdbcDriver</property>
+		<property name="pool.size">10</property>
+	</connection>
+
+	<!--  Mapas de querys. Nome dos arquivos com o caminho relativo ao diretorio de execução -->	
+	<query-mapping>
+		<query-file alias="default">query_teste.xml</query-file>
+	</query-mapping>
+</connection-config>
+
